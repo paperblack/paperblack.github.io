@@ -1,5 +1,5 @@
 title: Shibani Singh
 description: "It is all either black or white..." 
-show_downloads: true
-google_analytics:
+show_downloads: false
+google_analytics: true
 theme: jekyll-theme-slate
