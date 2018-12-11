@@ -6,10 +6,8 @@ I am a Software Engineer in the Data Center Group at Intel where I develop and d
 
 # Publications & Thesis Work
 
-* [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease Categories]
-(https://scholar.google.com/scholar?oi=bibs&cluster=3882555616215632182&btnI=1&hl=en)  
+* [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease Categories](https://scholar.google.com/scholar?oi=bibs&cluster=3882555616215632182&btnI=1&hl=en)  
   **S. Shibani**, S. Anant, M. Liang, C. Richard J, C. Kewei, G. Dhruman, R. Eric M, W. Yalin, 13th International Conference on Medical Information Processing and Analysis, 2017.
 
-* [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease]
-(https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
+* [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease](https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
   **Singh, Shibani**, Arizona State University, 2017.
