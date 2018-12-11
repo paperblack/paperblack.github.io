@@ -11,3 +11,7 @@ I am a Software Engineer in the Data Center Group at Intel where I develop and d
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease](https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
   **Singh, Shibani**, Arizona State University, 2017.
+  
+## Conference & Workshop Presentations
+
+[![Learning With MOOCs @ MIT](https://img.youtube.com/vi/0J5N_dLESTs/0.jpg)](https://youtu.be/0J5N_dLESTs?t=668)
