@@ -21,7 +21,3 @@ I am a Software Engineer in the Data Center Group at Intel where I develop and d
 <div align="center">
   <a href="https://www.youtube.com/watch?v=ofJCb62OkgI" target="_blank"><img src="https://img.youtube.com/vi/ofJCb62OkgI/0.jpg" alt="Bitcoin Price Prediction with RNNs @ Spark+AI Summit 2018"></a>
 </div>
-
-[![Learning With MOOCs @ MIT](https://img.youtube.com/vi/0J5N_dLESTs/0.jpg)](https://youtu.be/0J5N_dLESTs?t=668)
-
-[![Bitcoin Price Prediction with RNNs @ Spark+AI Summit 2018](https://img.youtube.com/vi/ofJCb62OkgI/0.jpg)](https://www.youtube.com/watch?v=ofJCb62OkgI)
