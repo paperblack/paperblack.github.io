@@ -4,7 +4,9 @@ layout: default
 
 I am a Software Engineer in the Data Center Group at Intel where I develop and design software and hardware specifications for big data analytics. I am also resposible for deployment and scalability of the Machine Learning systems. The technologies I have used so far are distributions of Hadoop (Cloudera & Hortonworks), Docker, Tensorflow, Apache Spark.
 
-# Publications & Thesis Work
+## [Resume](https://github.com/paperwhite/Resume/blob/master/Resume_Dec2018.pdf)
+
+## Publications & Thesis Work
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease Categories](https://scholar.google.com/scholar?oi=bibs&cluster=3882555616215632182&btnI=1&hl=en)  
   **S. Shibani**, S. Anant, M. Liang, C. Richard J, C. Kewei, G. Dhruman, R. Eric M, W. Yalin, 13th International Conference on Medical Information Processing and Analysis, 2017.
