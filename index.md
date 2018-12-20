@@ -5,7 +5,6 @@ layout: default
 I am a Software Engineer in the Data Center Group at Intel where I develop and design software and hardware specifications for big data analytics. I am also resposible for deployment and scalability of the Machine Learning systems. The technologies I have used so far are distributions of Hadoop (Cloudera & Hortonworks), Docker, Tensorflow, Apache Spark.
 
 Here is a link to my <a href="Resume_Dec2018.pdf">Resume</a>
-<!--[Resume](https://github.com/paperwhite/Resume/blob/master/Resume_Dec2018.pdf).-->
 
 ## Publications & Thesis Work
 
