@@ -3,3 +3,8 @@ description: "It is all either black or white... or quantum!"
 show_downloads: false
 google_analytics: true
 theme: jekyll-theme-slate
+
+#Stackoverflow flair is optional
+stackoverflow:
+   profileurl: https://stackoverflow.com/users/2126499/shibani
+   flairimageurl: https://stackoverflow.com/users/flair/2126499.png?theme=clean
