@@ -24,4 +24,3 @@ Here is a link to my <a href="Resume_Nov19.pdf">Resume</a>
   <a href="https://www.youtube.com/watch?v=ofJCb62OkgI" target="_blank"><img src="https://img.youtube.com/vi/ofJCb62OkgI/0.jpg" alt="Bitcoin Price Prediction with RNNs @ Spark+AI Summit 2018"></a>
 </div>
 
-<a href="https://stackoverflow.com/users/2126499/shibani"><img src="https://stackoverflow.com/users/flair/2126499.png?theme=clean" width="208" height="58" alt="profile for Shibani at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Shibani at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
