@@ -25,6 +25,5 @@ Here is a link to my <a href="Resume_Nov19.pdf">Resume</a>
 </div>
 
 ## Some stuff I'd like to share (To Be Organised Later):
-<div align="center">
-  <a href="another_page.md">Page 2</a>
-</div>
+[Tid-bits of what I learned](./another-page.html).
+
