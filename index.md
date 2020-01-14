@@ -24,3 +24,7 @@ Here is a link to my <a href="Resume_Nov19.pdf">Resume</a>
   <a href="https://www.youtube.com/watch?v=ofJCb62OkgI" target="_blank"><img src="https://img.youtube.com/vi/ofJCb62OkgI/0.jpg" alt="Bitcoin Price Prediction with RNNs @ Spark+AI Summit 2018"></a>
 </div>
 
+## Some stuff I'd like to share (To Be Organised Later):
+
+<a href="another_page.md">Page 2</a>
+
