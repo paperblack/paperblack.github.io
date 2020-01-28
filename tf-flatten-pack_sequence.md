@@ -33,4 +33,8 @@ c = nest.pack_sequence_as(structure=b , flat_sequence=a)
 c = \pm\sqrt{a^2 + b^2}
 {% endkatex %}
 
+{% katex display %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
+
 [back](./)
