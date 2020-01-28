@@ -8,3 +8,6 @@ theme: jekyll-theme-slate
 stackoverflow:
    profileurl: https://stackoverflow.com/users/2126499/shibani
    flairimageurl: https://stackoverflow.com/users/flair/2126499.png?theme=clean
+
+plugins:
+  - jekyll-katex
