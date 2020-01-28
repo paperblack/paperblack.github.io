@@ -29,4 +29,8 @@ c = nest.pack_sequence_as(structure=b , flat_sequence=a)
 # output: c: {1: 100, 2: 200, 3: {4: 300, 5: 400}, 6: [[500, 600], [700, 800]]}
 ```
 
+{% katex %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
+
 [back](./)
