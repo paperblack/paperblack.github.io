@@ -29,4 +29,7 @@ c = nest.pack_sequence_as(structure=b , flat_sequence=a)
 # output: c: {1: 100, 2: 200, 3: {4: 300, 5: 400}, 6: [[500, 600], [700, 800]]}
 ```
 
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+
 [back](./)
