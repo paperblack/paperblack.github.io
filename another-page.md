@@ -8,7 +8,7 @@ layout: default
 
 ### A list:
 - Basics of Machine Learning
-  - The most important math formula (./norms.html)
+  - [The most important math formula](./norms.html)
 - Differential Privacy with TensorFlow
   - [What is Differential Privacy in Deep Learning?](./dp_dl.html)
   - [tf.nest.pack_sequence_as](./tf-flatten-pack_sequence.html)
