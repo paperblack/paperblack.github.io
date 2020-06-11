@@ -4,7 +4,7 @@ layout: default
 
 I am a 'part-time' Research Engineer in the Security and Privacy Research group at Intel Labs and a full-time Software Engineer in the Data Center Group at Intel where I develop and design software and hardware specifications for big data analytics. I am also resposible for deployment and scalability of the Machine Learning systems. The technologies I have used so far are distributions of Hadoop (Cloudera & Hortonworks), Docker, Tensorflow, Apache Spark.
 
-Here is a link to my <a href="Resume_Nov19.pdf">Resume</a>
+Here is a link to my <a href="Resume_Jun2020.pdf">Resume</a>
 
 ## Publications & Thesis Work
 
