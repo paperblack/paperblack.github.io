@@ -15,6 +15,6 @@ layout: default
   
 ### Paper Summaries:
 
-- Generative Models for Effective ML on Private Decentralized Datasets (./generative_models_private_decentralized_datasets.html)
+- [Generative Models for Effective ML on Private Decentralized Datasets](./generative_models_private_decentralized_datasets.html)
 
 [back](./)
