@@ -9,6 +9,7 @@ layout: default
 ### A list:
 - Basics of Machine Learning
   - [The most important mathematical expression in ML/DL](./norms.html)
+  - [Describing bias and variance in simple terms](./bias_variance.html)
 - Differential Privacy with TensorFlow
   - [What is Differential Privacy in Deep Learning?](./dp_dl.html)
   - [tf.nest.pack_sequence_as](./tf-flatten-pack_sequence.html)
