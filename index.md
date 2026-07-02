@@ -74,10 +74,10 @@ Long term, I want to work on AI infrastructure that helps researchers do more wi
 * Read my [research overview](./research.html)
 * Browse my [projects](./projects.html)
 * Read my [writing](./writing.html)
-* View my [resume](./assets/pdf/resume.pdf)
+* View my [resume](./resume.pdf)
 
 
-Here is a link to my <a href="Resume_26.pdf">Resume</a>
+Here is a link to my <a href="resume.pdf">Resume</a>
 
 ## Publications & Thesis Work
 
