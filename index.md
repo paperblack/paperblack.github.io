@@ -84,7 +84,11 @@ Here is a link to my <a href="./assets/pdf/resume.pdf">Resume</a>
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease](https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
   **Singh, Shibani**, Arizona State University, 2017.
-  
+
+* [Synthetic Dataset Generation for Adversarial Machine Learning Research]
+(https://arxiv.org/pdf/2207.10719)
+L. Xiruo, **S. Shibani**, C. Cory, B. Colin, T. Mike, P. Anindya, M. Jason, AdvML Frontiers 2022.
+
 ## Conference & Workshop Presentations
 
 <div align="center">
