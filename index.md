@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Shibani Singh
-
 I’m interested in building AI systems that are not only powerful, but efficient, trustworthy, and useful in the real world.
 
 My work sits at the intersection of AI systems, machine learning, systems engineering, and scientific computing. I like problems where software, algorithms, and hardware all meet, especially when small improvements in efficiency or reliability can make AI more practical for researchers, clinicians, and engineers.
@@ -74,10 +72,10 @@ Long term, I want to work on AI infrastructure that helps researchers do more wi
 * Read my [research overview](./research.html)
 * Browse my [projects](./projects.html)
 * Read my [writing](./writing.html)
-* View my [resume](./resume.pdf)
+* View my [resume](./assets/pdf/resume.pdf)
 
 
-Here is a link to my <a href="resume.pdf">Resume</a>
+Here is a link to my <a href="./assets/pdf/resume.pdf">Resume</a>
 
 ## Publications & Thesis Work
 
