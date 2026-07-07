@@ -79,15 +79,14 @@ Here is a link to my <a href="./assets/pdf/resume.pdf">Resume</a>
 
 ## Publications & Thesis Work
 
+* [Synthetic Dataset Generation for Adversarial Machine Learning Research](https://arxiv.org/pdf/2207.10719) 
+  L. Xiruo, **S. Shibani**, C. Cory, B. Colin, T. Mike, P. Anindya, M. Jason, AdvML Frontiers, ICML, 2022.
+
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease Categories](https://scholar.google.com/scholar?oi=bibs&cluster=3882555616215632182&btnI=1&hl=en)  
   **S. Shibani**, S. Anant, M. Liang, C. Richard J, C. Kewei, G. Dhruman, R. Eric M, W. Yalin, 13th International Conference on Medical Information Processing and Analysis, 2017.
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease](https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
   **Singh, Shibani**, Arizona State University, 2017.
-
-* [Synthetic Dataset Generation for Adversarial Machine Learning Research]
-(https://arxiv.org/pdf/2207.10719)
-L. Xiruo, **S. Shibani**, C. Cory, B. Colin, T. Mike, P. Anindya, M. Jason, AdvML Frontiers 2022.
 
 ## Conference & Workshop Presentations
 
