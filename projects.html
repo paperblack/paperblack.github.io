@@ -1,0 +1,149 @@
+---
+layout: default
+title: Projects
+---
+
+<section class="page-intro">
+  <h1>Projects</h1>
+  <p>
+    These projects explore practical questions I keep returning to: how do we make
+    technical systems easier to inspect, debug, and trust while they are being built?
+  </p>
+  <p>
+    The current work is intentionally small and focused. Each project starts with a
+    concrete workflow, a working interface, and a clear next step rather than a large
+    platform too early.
+  </p>
+</section>
+
+<section class="project-list" aria-label="Project list">
+  <article class="project">
+    <p class="eyebrow">Training Diagnostics</p>
+    <h2>ML Run Doctor</h2>
+    <p>
+      ML Run Doctor helps answer a familiar question after an experiment fails:
+      what went wrong with this training run?
+    </p>
+    <p>
+      The app accepts one or more training-log CSV files, detects common metric
+      columns, plots normalized trends, compares experiments, and points out likely
+      problems such as overfitting, unstable loss, divergence, or slow convergence.
+      It also suggests basic hyperparameter changes and ranks configuration columns
+      by their relationship with final validation performance.
+    </p>
+    <dl>
+      <dt>Status</dt>
+      <dd>Working MVP</dd>
+      <dt>Built with</dt>
+      <dd>React, Next.js, FastAPI, browser-based plots, in-memory analysis</dd>
+      <dt>Good for</dt>
+      <dd>Reviewing experiment logs, comparing runs, and turning training curves into a short diagnosis</dd>
+    </dl>
+    <p class="links">
+      <a href="https://github.com/paperwhite/ml_run_doctor">Repository</a>
+      <a href="https://github.com/paperwhite/ml_run_doctor/blob/main/README.md">README</a>
+    </p>
+  </article>
+
+  <article class="project">
+    <p class="eyebrow">Image Forensics</p>
+    <h2>Forensic Energy Map</h2>
+    <p>
+      Forensic Energy Map is a research baseline for inspecting low-level visual
+      traces in synthetic images.
+    </p>
+    <p>
+      Instead of returning only a single real-or-synthetic score, the project predicts
+      a spatial energy map that shows where suspicious low-level signal is concentrated.
+      The map is meant to help inspect what a detector is responding to, such as
+      texture, edges, compression, resampling artifacts, or frequency patterns. It also
+      produces an image-level synthetic probability.
+    </p>
+    <p>
+      The README is careful about the limits of this work: the map is a model response,
+      not proof that a region was generated or edited. That caution is important for
+      forensic tools, where the output needs to support careful review rather than
+      overclaim certainty.
+    </p>
+    <dl>
+      <dt>Status</dt>
+      <dd>Research baseline</dd>
+      <dt>Built with</dt>
+      <dd>PyTorch, patchwise spectral-energy teacher maps, CNN training, heatmap inference</dd>
+      <dt>Good for</dt>
+      <dd>Studying synthetic-image traces, detector behavior, and localized forensic signals</dd>
+    </dl>
+    <p class="links">
+      <a href="https://github.com/paperwhite/forensic-energy-map">Repository</a>
+      <a href="https://github.com/paperwhite/forensic-energy-map/blob/main/README.md">README</a>
+    </p>
+  </article>
+
+  <article class="project">
+    <p class="eyebrow">Distributed Training</p>
+    <h2>DistViz: Distributed Training Visualizer</h2>
+    <p>
+      DistViz explains why a distributed training step is slow by showing where time
+      goes across workers.
+    </p>
+    <p>
+      The prototype shows per-rank compute, communication, and idle time; GPU
+      utilization by worker; network bandwidth; pipeline bubbles; worker imbalance;
+      simulated memory fragmentation; and generated bottleneck findings. The current
+      version uses synthetic trace data so the interface and analysis contract can be
+      tested before connecting it to real profiler output.
+    </p>
+    <dl>
+      <dt>Status</dt>
+      <dd>Prototype with synthetic profiler data</dd>
+      <dt>Built with</dt>
+      <dd>Next.js, generated trace data, timeline and utilization views</dd>
+      <dt>Good for</dt>
+      <dd>Explaining stragglers, communication stalls, pipeline bubbles, and uneven worker behavior</dd>
+    </dl>
+    <p class="links">
+      <a href="https://github.com/paperwhite/distributed-training-visualizer">Repository</a>
+      <a href="https://github.com/paperwhite/distributed-training-visualizer/blob/main/README.md">README</a>
+      <a href="https://github.com/paperwhite/distributed-training-visualizer/blob/main/public/worker-timeline-analysis.svg">Worker timeline analysis</a>
+      <a href="https://github.com/paperwhite/distributed-training-visualizer/blob/main/public/utilization-network-analysis.svg">Utilization and network analysis</a>
+      <a href="https://github.com/paperwhite/distributed-training-visualizer/blob/main/public/memory-findings-analysis.svg">Memory and findings analysis</a>
+    </p>
+  </article>
+
+  <article class="project">
+    <p class="eyebrow">Web Security</p>
+    <h2>Polaris</h2>
+    <p>
+      Polaris is an older web security project focused on reducing cross-site scripting
+      risk in PHP applications.
+    </p>
+    <p>
+      The idea is straightforward: instead of asking every developer to manually handle
+      every unsafe input pattern, Polaris takes a PHP file and produces a more defensive
+      version with input sanitization added. The goal is to move some of the burden of
+      XSS prevention into tooling that can support developers earlier in the workflow.
+    </p>
+    <dl>
+      <dt>Status</dt>
+      <dd>Archived student/research project</dd>
+      <dt>Built with</dt>
+      <dd>PHP-oriented static transformation for input sanitization</dd>
+      <dt>Good for</dt>
+      <dd>Showing early security interests around safer defaults, developer tools, and web application hardening</dd>
+    </dl>
+    <p class="links">
+      <a href="https://github.com/paperwhite/Polaris">Repository</a>
+      <a href="https://github.com/paperwhite/Polaris/blob/master/README.md">README</a>
+    </p>
+  </article>
+</section>
+
+<section class="project-note">
+  <h2>Project Direction</h2>
+  <p>
+    Together, these projects point toward a consistent theme: tools that make hidden
+    behavior visible. Some focus on model training, one focuses on visual forensic
+    signal, and one comes from web security. The shared goal is to make failure modes
+    and risks visible enough that a researcher or engineer can decide what to try next.
+  </p>
+</section>
