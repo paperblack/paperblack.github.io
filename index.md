@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Shibani Singh
-
 I’m interested in building AI systems that are not only powerful, but efficient, trustworthy, and useful in the real world.
 
 My work sits at the intersection of AI systems, machine learning, systems engineering, and scientific computing. I like problems where software, algorithms, and hardware all meet, especially when small improvements in efficiency or reliability can make AI more practical for researchers, clinicians, and engineers.
@@ -74,19 +72,22 @@ Long term, I want to work on AI infrastructure that helps researchers do more wi
 * Read my [research overview](./research.html)
 * Browse my [projects](./projects.html)
 * Read my [writing](./writing.html)
-* View my [resume](./resume.pdf)
+* View my [resume](./assets/pdf/resume.pdf)
 
 
-Here is a link to my <a href="resume.pdf">Resume</a>
+Here is a link to my <a href="./assets/pdf/resume.pdf">Resume</a>
 
 ## Publications & Thesis Work
+
+* [Synthetic Dataset Generation for Adversarial Machine Learning Research](https://arxiv.org/pdf/2207.10719) 
+  L. Xiruo, **S. Shibani**, C. Cory, B. Colin, T. Mike, P. Anindya, M. Jason, AdvML Frontiers, ICML, 2022.
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease Categories](https://scholar.google.com/scholar?oi=bibs&cluster=3882555616215632182&btnI=1&hl=en)  
   **S. Shibani**, S. Anant, M. Liang, C. Richard J, C. Kewei, G. Dhruman, R. Eric M, W. Yalin, 13th International Conference on Medical Information Processing and Analysis, 2017.
 
 * [Deep Learning based Classification of FDG-PET Data for Alzheimer’s Disease](https://repository.asu.edu/attachments/186430/content/Singh_asu_0010N_16846.pdf)  
   **Singh, Shibani**, Arizona State University, 2017.
-  
+
 ## Conference & Workshop Presentations
 
 <div align="center">
