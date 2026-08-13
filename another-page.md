@@ -10,6 +10,8 @@ layout: default
 - Basics of Machine Learning
   - [The most important mathematical expression in ML/DL](./norms.html)
   - [Describing bias and variance in simple terms](./bias_variance.html)
+- Currently investigating
+  - [From y = wx + b to Transformers](https://paperesque.substack.com/p/from-y-wx-b-to-transformers?r=1f4h4a)
 - Differential Privacy with TensorFlow
   - [What is Differential Privacy in Deep Learning?](./dp_dl.html)
   - [tf.nest.pack_sequence_as](./tf-flatten-pack_sequence.html)
