@@ -72,6 +72,7 @@ Long term, I want to work on AI infrastructure that helps researchers do more wi
 * Read my [research overview](./research.html)
 * Browse my [projects](./projects.html)
 * Read my [writing](./writing.html)
+* Follow my [Paperesque Substack](https://paperesque.substack.com)
 * View my [resume](./assets/pdf/resume.pdf)
 
 
@@ -100,4 +101,3 @@ Here is a link to my <a href="./assets/pdf/resume.pdf">Resume</a>
 
 ## Some stuff I'd like to share (To Be Organised Later):
 [Tid-bits of what I learned](./another-page.html).
-

@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "cgi"
+require "open-uri"
+require "rss"
+require "time"
+
+FEED_URL = ENV.fetch("SUBSTACK_FEED_URL", "https://paperesque.substack.com/feed")
+TARGET_PATH = ARGV.fetch(0, "writing.md")
+LIMIT = Integer(ENV.fetch("SUBSTACK_POST_LIMIT", "10"))
+START_MARKER = "<!-- substack-posts:start -->"
+END_MARKER = "<!-- substack-posts:end -->"
+
+def plain_text(value)
+  CGI.unescapeHTML(value.to_s)
+     .gsub(/<[^>]*>/, "")
+     .gsub(/\s+/, " ")
+     .strip
+end
+
+def markdown_text(value)
+  plain_text(value).gsub("[", "\\[").gsub("]", "\\]")
+end
+
+def display_date(value)
+  time = Time.parse(value.to_s)
+  "#{time.strftime("%b")} #{time.day}, #{time.year}"
+rescue ArgumentError
+  nil
+end
+
+feed = URI.open(FEED_URL, read_timeout: 20, open_timeout: 20) { |io| RSS::Parser.parse(io.read, false) }
+items = feed.items.first(LIMIT)
+
+posts = items.map do |item|
+  title = markdown_text(item.title)
+  link = item.link.to_s.strip
+  description = plain_text(item.description)
+  date = display_date(item.pubDate)
+  summary = [date, description].compact.reject(&:empty?).join(" - ")
+
+  if summary.empty?
+    "- [#{title}](#{link})"
+  else
+    "- [#{title}](#{link}) - #{summary}"
+  end
+end
+
+replacement = ([START_MARKER] + posts + [END_MARKER]).join("\n")
+content = File.read(TARGET_PATH)
+
+unless content.include?(START_MARKER) && content.include?(END_MARKER)
+  abort "Could not find #{START_MARKER} and #{END_MARKER} in #{TARGET_PATH}"
+end
+
+updated = content.sub(/#{Regexp.escape(START_MARKER)}.*?#{Regexp.escape(END_MARKER)}/m, replacement)
+File.write(TARGET_PATH, updated)
